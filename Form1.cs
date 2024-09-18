@@ -44,5 +44,10 @@ namespace pr._1._2
         {
             confirmationLabel.Text = $"Ваша електронна пошта: {emailTextBox.Text}";
         }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

@@ -30,6 +30,7 @@ namespace pr._1._2
         private DateTimePicker birthDatePicker;
         private ComboBox colorComboBox;
         private ProgressBar progressBar;
+        private Button exitButton;
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -48,6 +49,7 @@ namespace pr._1._2
             this.progressBar = new System.Windows.Forms.ProgressBar();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.exitButton = new System.Windows.Forms.Button()
             ((System.ComponentModel.ISupportInitialize)(this.ageNumericUpDown)).BeginInit();
             this.SuspendLayout();
             // 
@@ -146,6 +148,16 @@ namespace pr._1._2
             this.label2.Size = new System.Drawing.Size(265, 13);
             this.label2.TabIndex = 9;
             this.label2.Text = "Оберіть дату, за яку ви хочете переглянути новини";
+            // 
+            // exitButton
+            // 
+            this.exitButton.Location = new System.Drawing.Point(20, 315);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(257, 23);
+            this.exitButton.TabIndex = 10;
+            this.exitButton.Text = "Закрити";
+            this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // Form1
             // 
